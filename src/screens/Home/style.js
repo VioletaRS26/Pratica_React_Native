@@ -11,9 +11,9 @@ export const styles = StyleSheet.create({
         alignItems:'center'
     },
     img:{
-        width:50,
-        height:50,
-        padding:20,
+        width:30,
+        height:30,
+        padding:30,
         marginBottom:30
     },
     titulo:{
@@ -22,17 +22,33 @@ export const styles = StyleSheet.create({
     },
     text:{
         fontSize:15,
-        color:'#A9A9A9'
-
+        color:'#A9A9A9',
+        margin:10
 
     },
-    turma:{
-        flex:1,
-        width:60,
-        height:40,
-        backgroundColor:'#696969',
+    botao:{
+        flexDirection:'row',
         alignItems:'center',
-        justifyContent:'center'
-    }
+        backgroundColor: '#363636',
+        padding:8,
+        margin:5,
+        borderRadius:5,
+        
+    },
+    textB:{
+        fontSize:15,
+        color:'white',
+        padding:10,
+    },
+    imgB:{
+        width:50,
+        height:50,
+    },
+    containerB:{
+        flex:1,
+        backgroundColor:"#1C1C1C",
+        margin:10,
+        marginBottom:250
+    },
 
 })
